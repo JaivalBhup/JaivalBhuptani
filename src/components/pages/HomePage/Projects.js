@@ -57,8 +57,8 @@ export const Projects = [{
     lightBg: false 
 },
 {
-    img:'tdl1.png',
-    img2:'tdl2.png', 
+    img:'tdl2.png',
+    img2:'tdl1.png', 
     img3:'',
     imgStart:'',
     topLine: "ToDoList",
