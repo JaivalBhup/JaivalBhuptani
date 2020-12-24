@@ -43,9 +43,9 @@ export const Projects = [{
 },
 
 {
-    img:'stb1.png',
-    img2:'stb2.png', 
-    img3:'stb3.png',
+    img:'stb1.jpeg',
+    img2:'stb2.jpeg', 
+    img3:'stb3.jpeg',
     imgStart:'',
     topLine: "SplitTheBill",
     headLine: "Swift | Realm",
@@ -57,8 +57,8 @@ export const Projects = [{
     lightBg: false 
 },
 {
-    img:'tdl2.png',
-    img2:'tdl1.png', 
+    img:'tdl2.jpeg',
+    img2:'tdl1.jpeg', 
     img3:'',
     imgStart:'',
     topLine: "ToDoList",
