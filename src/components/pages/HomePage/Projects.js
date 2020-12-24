@@ -60,7 +60,7 @@ export const Projects = [{
     img:'tdl2.jpeg',
     img2:'tdl1.jpeg', 
     img3:'',
-    imgStart:'',
+    imgStart:'start',
     topLine: "ToDoList",
     headLine: "Swift | Realm",
     lightText: false,
