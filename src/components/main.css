@@ -1,0 +1,151 @@
+.home {
+  /* color: #fff; */
+  padding: 150px 0;
+}
+a {
+  padding-right: 10px;
+}
+i {
+  color: #fff;
+}
+i:hover {
+  transition: all 0.3 ease-out;
+  color: #276afb;
+}
+.home-row {
+  align-items: center;
+}
+.row {
+  display: flex;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+.col {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.text-wrapper {
+  max-width: 540px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+.top-line {
+  color: #f7f8fa;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+.heading {
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #f00946;
+  text-transform: uppercase;
+}
+.title {
+  color: #f7f8fa;
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.darkBg {
+  background-color: #1c2237;
+  /* background-color: #171c31; */
+}
+.img-wrapper {
+  max-width: 150px;
+}
+.logo-wrapper {
+  max-width: 350px;
+}
+.im {
+  max-width: 95%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  /* margin-left: -10px; */
+  padding-right: 0;
+}
+.profile {
+  border-radius: 40%;
+  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.5);
+}
+.rotate {
+  margin-left: 10px;
+  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.container {
+  padding-right: 30px;
+  padding-left: 100px;
+}
+
+.img-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.img-col {
+  flex: 50%;
+  padding: 0 4px;
+}
+.logo {
+  width: 300px;
+}
+/* .img-col img {
+  margin-top: 8px;
+  vertical-align: middle;
+} */
+
+.pfoot {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 0;
+  color: #f7f8fa;
+  font-size: 18px;
+  line-height: 24px;
+}
+.down-arr {
+  color: #fff;
+}
+@media screen and (max-width: 786px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 481px) {
+  .text-wrapper {
+    padding-bottom: 65px;
+  }
+  img {
+    display: none;
+  }
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
