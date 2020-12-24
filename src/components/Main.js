@@ -20,10 +20,10 @@ import './main.css'
                             {/* <Link to = "/">
                                 <Button buttonStyle="btn-outline" buttonSize="btn-lrg" buttonColor = 'primary'></Button>
                             </Link> */}
-                            <a href="http://github.com/JaivalBhup"> 
+                            <a href="https://github.com/JaivalBhup"> 
                                 <i class="fab fa-github fa-2x"></i>                            
                             </a>
-                            <a href="google.com"> 
+                            <a href="https://www.linkedin.com/in/Jaivalbhup/"> 
                                 <i class="fab fa-linkedin fa-2x"></i>                            
                             </a>
                             <a href="mailto:jaivalbhuptani1406@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
