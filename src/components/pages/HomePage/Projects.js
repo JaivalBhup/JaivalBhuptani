@@ -14,17 +14,17 @@ export const Projects = [{
 },
 
 {
-    img:'animation.gif',
+    img:'hp.png',
     img2:'',
     img3:'',
     imgStart:'',
-    topLine: "Project Hunt",
-    headLine: "Python | Django | JavaScript",
+    topLine: "House Partyt",
+    headLine: "Django | React | Spotify API",
     lightText: true,
-    description: "A Product Hunt clone where an user can post their idea of any project idea or their creation, upvote or downvote other projects and comment on any post.",
+    description: "A Party application that lets a you create or join a room. A host can control the music or a member can vote to control the music. It uses Spotify API to ply the music.",
     subtitle: "",
     buttonLabel:"Github",
-    location: "https://github.com/JaivalBhup/ProjectHuntPython-Django",
+    location: "https://github.com/JaivalBhup/HouseParty",
     lightBg: false 
 },
 {
@@ -81,5 +81,19 @@ export const Projects = [{
 //     subtitle: "",
 //     buttonLabel:"Github",
 //     location: "https://github.com/JaivalBhup",
+//     lightBg: false 
+// },
+// {
+//     img:'animation.gif',
+//     img2:'',
+//     img3:'',
+//     imgStart:'',
+//     topLine: "Project Hunt",
+//     headLine: "Python | Django | JavaScript",
+//     lightText: true,
+//     description: "A Product Hunt clone where an user can post their idea of any project idea or their creation, upvote or downvote other projects and comment on any post.",
+//     subtitle: "",
+//     buttonLabel:"Github",
+//     location: "https://github.com/JaivalBhup/ProjectHuntPython-Django",
 //     lightBg: false 
 // },
