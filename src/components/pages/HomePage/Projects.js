@@ -18,7 +18,7 @@ export const Projects = [{
     img2:'',
     img3:'',
     imgStart:'',
-    topLine: "House Partyt",
+    topLine: "House Party",
     headLine: "Django | React | Spotify API",
     lightText: true,
     description: "A Party application that lets a you create or join a room. A host can control the music or a member can vote to control the music. It uses Spotify API to ply the music.",
