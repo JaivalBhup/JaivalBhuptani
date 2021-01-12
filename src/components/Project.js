@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import {Button} from './Button'
 import './Project.css'
+import './main.css'
 
 
     function Main({img,img2,img3,imgStart, topLine, headLine, lightText, description, subtitle, buttonLabel, location, lightBg}){

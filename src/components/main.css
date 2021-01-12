@@ -131,6 +131,14 @@ img {
 .down-arr {
   color: #fff;
 }
+.footer {
+  width: 100%;
+  height: 5%;
+  background-color: #1c2237;
+  color: white;
+  text-align: center;
+}
+
 @media screen and (max-width: 786px) {
   .container {
     padding-right: 30px;

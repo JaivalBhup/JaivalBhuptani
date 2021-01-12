@@ -21,7 +21,7 @@ export const Projects = [{
     topLine: "House Party",
     headLine: "Django | React | Spotify API",
     lightText: true,
-    description: "A Party application that lets a you create or join a room. A host can control the music or a member can vote to control the music. It uses Spotify API to ply the music.",
+    description: "A fullstack web application that let you collaborate and control the music in a room. It uses soptify API to play, pause and skip the song.",
     subtitle: "",
     buttonLabel:"Github",
     location: "https://github.com/JaivalBhup/HouseParty",
