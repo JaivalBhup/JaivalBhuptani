@@ -76,12 +76,12 @@ export const Projects = [{
     imgStart:'',
     topLine: "ToDoList",
     headLine: "Swift | Realm",
-    lightText: false,
+    lightText: true,
     description: "A productivity app to keep track of day to day routine any manage schedule.",
     subtitle: "",
     buttonLabel:"Github",
     location: "https://github.com/JaivalBhup/SplitTheBillApp-iOS-Swift",
-    lightBg: true 
+    lightBg: false 
 }
 ]
 // {
