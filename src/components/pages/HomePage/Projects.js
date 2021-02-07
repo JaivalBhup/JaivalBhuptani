@@ -12,55 +12,68 @@ export const Projects = [{
     location: "https://jaivalbhup.github.io/AlgorithmVisualizer-React",
     lightBg: true
 },
-
+{
+    img:'webc.jpg',
+    img2:'',
+    img3:'',
+    imgStart:'',
+    topLine: "WebChat",
+    headLine: "Django | React | REST Framework",
+    lightText: true,
+    description: "This is a Chat applications where you can chat with a group of people. You can Create rooms and invite people. I have created my own APIs for this application.",
+    subtitle: "",
+    buttonLabel:"GitHub",
+    location: "https://jaivalbhup.github.io/Django-React-ChatApp",
+    lightBg: false
+},
 {
     img:'hp.png',
     img2:'',
     img3:'',
-    imgStart:'',
+    imgStart:'start',
     topLine: "House Party",
-    headLine: "Django | React | Spotify API",
-    lightText: true,
+    headLine: "Django | React | Spotify API | REST Framework",
+    lightText: false,
     description: "A fullstack web application that let you collaborate and control the music in a room. It uses soptify API to play, pause and skip the song.",
     subtitle: "",
     buttonLabel:"Github",
     location: "https://github.com/JaivalBhup/HouseParty",
-    lightBg: false 
+    lightBg: true 
 },
 {
     img:'btree.svg',
     img2:'',
     img3:'',
-    imgStart:'start',
+    imgStart:'',
     topLine: "Level Order Printing Binary Tree",
     headLine: "C",
-    lightText: false,
+    lightText: true,
     description: "An Application that takes a file with a serialized string of a binary tree, deserializes it with PRE-ORDER TRAVARSAL and prints a level ordered Binary tree.",
     subtitle: "",
     buttonLabel:"Github",
     location: "https://github.com/JaivalBhup/LevelOrderBinaryTreePrintingC",
-    lightBg: true 
+    lightBg: false 
 },
 
 {
     img:'stb1.jpeg',
     img2:'stb2.jpeg', 
     img3:'stb3.jpeg',
-    imgStart:'',
+    imgStart:'start',
     topLine: "SplitTheBill",
     headLine: "Swift | Realm",
-    lightText: true,
+    lightText: false,
     description: "A Bill splitting app that can store events and contributor and can settle up the bill equally between all contributors.",
     subtitle: "",
     buttonLabel:"Github",
     location: "https://github.com/JaivalBhup/SplitTheBillApp-iOS-Swift",
-    lightBg: false 
+    lightBg: true 
 },
 {
     img:'tdl2.jpeg',
     img2:'tdl1.jpeg', 
     img3:'',
-    imgStart:'start',
+    imgStart:'',
     topLine: "ToDoList",
     headLine: "Swift | Realm",
     lightText: false,
