@@ -45,9 +45,9 @@ import './main.css'
                     </div>
                 </div>
                 </div>
-                {/* <div className="home-row">
-                <p className="pfoot">Here are some of my projects <i className="down-arr fas fa-hand-point-down fa-2x"></i></p>
-                </div> */}
+                <div className="home-row">
+                <p className="pfoot">Scroll Down for Projects <img src="scroll.png" alt="scroll" id = "scroll"></img></p>
+                </div>
             </div>
             
         </>

@@ -56,17 +56,17 @@ export const Projects = [{
 },
 
 {
-    img:'stb1.jpeg',
-    img2:'stb2.jpeg', 
-    img3:'stb3.jpeg',
+    img:'stb1.PNG',
+    img2:'stb2.PNG', 
+    img3:'stb3.PNG',
     imgStart:'start',
     topLine: "SplitTheBill",
-    headLine: "Swift | Realm",
+    headLine: "Swift | FireBase",
     lightText: false,
-    description: "A Bill splitting app that can store events and contributor and can settle up the bill equally between all contributors.",
+    description: "A Bill splitting app that can store events and contributors and can settle up the bill equally between all contributors. Contributors can add bills for the events and the app manages all the bills. Data is stored and fetched from firebase's realtime firestore. It uses firebase authentication. ",
     subtitle: "",
     buttonLabel:"Github",
-    location: "https://github.com/JaivalBhup/SplitTheBillApp-iOS-Swift",
+    location: "https://github.com/JaivalBhup/SplitTheBillApp-iOS-Swift/tree/FireBase",
     lightBg: true 
 },
 {
