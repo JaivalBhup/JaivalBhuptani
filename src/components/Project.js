@@ -8,7 +8,7 @@ import './main.css'
     function Main({img,img2,img3,imgStart, topLine, headLine, lightText, description, subtitle, buttonLabel, location, lightBg}){
     return (
         <>
-            <div className = {lightBg?"proj":"proj darkBg"}>
+            <div id="projects" className = {lightBg?"proj":"proj darkBg"}>
                 <div className="proj-container">
                 <div className = "proj-home-row"
                 style={{display:'flex', flexDirection: imgStart==="start"? "row-reverse":'row'}}>

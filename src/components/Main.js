@@ -46,7 +46,7 @@ import './main.css'
                 </div>
                 </div>
                 <div className="home-row">
-                <p className="pfoot">Scroll Down for Projects <img src="scroll.png" alt="scroll" id = "scroll"></img></p>
+                <a className="div-link" href="#projects"><div className="foot">Scroll Down for Projects</div></a>
                 </div>
             </div>
             
