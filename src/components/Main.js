@@ -48,7 +48,7 @@ import sketch from '../../src/sketch'
                 </div>
                 </div>
                 <div className="home-row">
-                <a className="div-link" href="#projects"><div className="foot">Scroll Down for Projects</div></a>
+                <a className="div-link" href="#projects"><div className="foot">Scroll Down for Projects<img id = "scroll" alt="scroll" src="scroll3.png"/></div></a>
                 </div>
             </div>
         </>
