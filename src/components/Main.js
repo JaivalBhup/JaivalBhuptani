@@ -1,11 +1,13 @@
 import React from 'react'
 import './main.css'
-
+import P5Wrapper from 'react-p5-wrapper'
+import sketch from '../../src/sketch'
 
     function Main({img, topLine, headLine, description}){
     return (
         <>
-            <div className = "home darkBg">
+        <P5Wrapper sketch = {sketch}/>
+            <div className = "home">
                 <div className="container">
                 <div className = "home-row"
                 style={{display:'flex', flexDirection: 'row'}}>
@@ -15,7 +17,7 @@ import './main.css'
                         </div>
                         <div className="text-wrapper">
                             <div className="top-line">{topLine}</div>
-                            <h1 className="heading">{headLine} <img src="animation.gif" className="rotate im" alt = "nn"/></h1>
+                            <h1 className="heading">{headLine} </h1>
                             <p className = "title">{description}</p>
                             {/* <Link to = "/">
                                 <Button buttonStyle="btn-outline" buttonSize="btn-lrg" buttonColor = 'primary'></Button>
@@ -49,7 +51,6 @@ import './main.css'
                 <a className="div-link" href="#projects"><div className="foot">Scroll Down for Projects</div></a>
                 </div>
             </div>
-            
         </>
     )
 }
