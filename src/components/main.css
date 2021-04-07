@@ -1,7 +1,7 @@
 .home {
   /* color: #fff; */
   padding: 150px 0;
-  height: calc(100vh-200px);
+  height: 100vp;
 }
 a {
   padding-right: 10px;
