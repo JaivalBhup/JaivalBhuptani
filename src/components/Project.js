@@ -5,7 +5,7 @@ import './Project.css'
 import './main.css'
 
 
-    function Main({img,img2,img3,imgStart, topLine, headLine, lightText, description, subtitle, buttonLabel, location, lightBg}){
+    function Main({img,imgStart, topLine, headLine, lightText, description, subtitle, buttonLabel, location, lightBg}){
     return (
         <>
             <div id="projects" className = {lightBg?"proj":"proj darkBg"}>
@@ -25,9 +25,9 @@ import './main.css'
                     </div>
                     <div className="col">
                         <div className = "proj-img-wrapper">
-                            <img src = {img} alt="proj-img" className="proj-im"/>
-                            <img src = {img2} alt="proj-img" className="proj-im" style={{display: img2===""?"none":"inline-block"}}/>
-                            <img src = {img3} alt="proj-img" className="proj-im"style={{display: img3===""?"none":"inline-block"}}/>
+                            {img.map((i)=>{
+                                return <img className="proj-im" alt="prog-im" src={i}/>
+                            })}
                         </div>
                     </div>
                 </div>

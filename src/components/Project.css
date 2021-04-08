@@ -100,7 +100,7 @@ img {
     padding-left: 30px;
   }
 }
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 480px) {
   .proj-text-wrapper {
     padding-bottom: 65px;
   }

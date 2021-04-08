@@ -1,7 +1,5 @@
 export const Projects = [{
-    img:'algo.jpeg',
-    img2:'',
-    img3:'',
+    img:['algo.jpeg'],
     imgStart:'start',
     topLine: "Algorithm Visulizer",
     headLine: "React",
@@ -13,9 +11,7 @@ export const Projects = [{
     lightBg: true
 },
 {
-    img:'webc.jpg',
-    img2:'',
-    img3:'',
+    img:['webc.jpg'],
     imgStart:'',
     topLine: "WebChat",
     headLine: "Django | React | REST Framework",
@@ -27,9 +23,7 @@ export const Projects = [{
     lightBg: false
 },
 {
-    img:'hp.png',
-    img2:'',
-    img3:'',
+    img:['hp.png'],
     imgStart:'start',
     topLine: "House Party",
     headLine: "Django | React | Spotify API | REST Framework",
@@ -41,9 +35,7 @@ export const Projects = [{
     lightBg: true 
 },
 {
-    img:'fc1.PNG',
-    img2:'fc2.PNG',
-    img3:'fc3.PNG',
+    img:['fc1.PNG','fc2.PNG','fc3.PNG'],
     imgStart:'',
     topLine: "Flash Checkout",
     headLine: "Swift | Firebase",
@@ -51,14 +43,12 @@ export const Projects = [{
     description: "This application is an solution to the Future of retail challenge. This application can make your shopping experience as easy as making a bread. No need of waiting in long lines of checkout just scan the item directly from the shelf and pay on the go.",
     subtitle: "",
     buttonLabel:"Github",
-    location: "https://github.com/JaivalBhup/LevelOrderBinaryTreePrintingC",
+    location: "https://github.com/JaivalBhup/FlashCheckout",
     lightBg: false 
 },
 
 {
-    img:'stb1.PNG',
-    img2:'stb2.PNG', 
-    img3:'stb3.PNG',
+    img:['stb1.PNG','stb2.PNG', 'stb3.PNG'],
     imgStart:'start',
     topLine: "SplitTheBill",
     headLine: "Swift | FireBase",
@@ -70,9 +60,7 @@ export const Projects = [{
     lightBg: true 
 },
 {
-    img:'tdl2.jpeg',
-    img2:'tdl1.jpeg', 
-    img3:'',
+    img:['tdl2.jpeg','tdl1.jpeg'],
     imgStart:'',
     topLine: "ToDoList",
     headLine: "Swift | Realm",
